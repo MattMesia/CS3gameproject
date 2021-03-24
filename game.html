@@ -168,9 +168,20 @@
 // win condition
             
             function congrats(){
-                if(points >= 41 || blessy >=41){
-                    alert('congratulations. you reached the end of the year. to play again press F5 or Fn + F5.');
-                } 
+                if( blessy >== 42){
+						document.getElementById('back').style.background = 'rgba(0,128,0,0.8)';
+						document.getElementById('module').style.display = 'none';
+						document.getElementById('student').style.display = 'none';
+						document.getElementById('boss').style.display = 'none';
+						document.getElementById('score').style.display = 'none';
+						document.getElementById('wordInput').style.display = 'none';
+						document.getElementById('lives').style.display = 'none';
+						document.getElementById('game1').style.display = 'block';
+						document.getElementById('game1').style.background = 'rgba(0,128,0,0.8)';
+						document.getElementById('game1').style.height = '637px';
+						document.getElementById('game1').style.width = '1323px';
+						document.getElementById('back').style.background = 'rgba(0,128,0,0.8)';
+					};
             }
             
             
